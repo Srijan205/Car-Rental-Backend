@@ -37,6 +37,8 @@ Object.keys(db).forEach(modelName => {
   }
 });
 
+db.car = require("./car.js")(sequelize, Sequelize);
+
 db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 

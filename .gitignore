@@ -1,3 +1,7 @@
 node_modules/
 /migrations
 /config/config.json
+app/config/
+app/migrations/
+app/routes/
+app/seeders/
